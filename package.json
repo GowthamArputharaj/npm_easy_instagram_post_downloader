@@ -1,0 +1,27 @@
+{
+  "name": "instagram_video_downloader_gowtham",
+  "version": "1.0.0",
+  "description": "Instagram Video Downloader Gowtham",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gowtham",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GowthamArputharaj/npm_instagram_post_downloader.git"
+  },
+  "keywords": [
+    "console",
+    "design",
+    "style",
+    "devtools",
+    "dev",
+    "tools"
+  ],
+  "bugs": {
+    "url": "https://github.com/GowthamArputharaj/npm_instagram_post_downloader/issues"
+  },
+  "homepage": "https://github.com/GowthamArputharaj/npm_instagram_post_downloader#readme"
+}
