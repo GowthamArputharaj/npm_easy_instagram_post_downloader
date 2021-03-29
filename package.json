@@ -1,7 +1,7 @@
 {
-  "name": "instagram_video_downloader_gowtham",
+  "name": "easy_instagram_post_downloader",
   "version": "1.0.0",
-  "description": "Instagram Video Downloader Gowtham",
+  "description": "Download Instagram Posts in seconds. Easy Installation and Usage.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GowthamArputharaj/npm_instagram_post_downloader.git"
+    "url": "git+https://github.com/GowthamArputharaj/npm_easy_instagram_post_downloader.git"
   },
   "keywords": [
     "console",
@@ -21,7 +21,7 @@
     "tools"
   ],
   "bugs": {
-    "url": "https://github.com/GowthamArputharaj/npm_instagram_post_downloader/issues"
+    "url": "https://github.com/GowthamArputharaj/npm_easy_instagram_post_downloader/issues"
   },
-  "homepage": "https://github.com/GowthamArputharaj/npm_instagram_post_downloader#readme"
+  "homepage": "https://github.com/GowthamArputharaj/npm_easy_instagram_post_downloader#readme"
 }

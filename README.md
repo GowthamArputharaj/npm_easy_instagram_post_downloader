@@ -15,14 +15,21 @@ console.log(cd.text, cd.style);
 
 
 # instagram video downloader
-downloadPost(q, (err, resp) => {
-    if(err) {
-        console.log(`Error is: ${err}`);
+const insta = require('easy_instagram_post_downloader');
+
+var postId = 'CM9i3rEKRBX';
+
+// create downloads directory and get relative path
+var dirName = './downloads';
+
+insta(postId, dirName, (error, response) => { 
+    
+    if(error) { 
+        console.log(`Error is: ${err}`); 
     }
 
-    if(resp) {
-        console.log(err);
-        console.log(resp);
+    if(response) {
+        console.log(response);
     }
 });
 
