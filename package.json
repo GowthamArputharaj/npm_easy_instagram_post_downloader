@@ -1,6 +1,6 @@
 {
-  "name": "easy_instagram_post_downloader",
-  "version": "1.0.0",
+  "name": "easy-instagram-post-downloader",
+  "version": "1.0.1",
   "description": "Download Instagram Posts in seconds. Easy Installation and Usage.",
   "main": "index.js",
   "scripts": {
