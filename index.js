@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Get post url and download post
-function downloadPost(q, cb) {
+function downloadPost(q, dirName, cb) {
     const ig_root = 'https://www.instagram.com/p/';
     const jsonparam = '/?__a=1';
 
@@ -25,9 +25,9 @@ function downloadPost(q, cb) {
             })
             .on('end', () => {
                 json = JSON.parse(body);
-                console.log(json);
+                // console.log(json);
                 var url = json.graphql.shortcode_media.display_url;
-                var dir = __dirname+'/new_downl/';
+                var dir = dirName;
 
                 https.get(url, (res) =>{
                     if (res.statusCode != 200)
@@ -61,7 +61,7 @@ function downloadPost(q, cb) {
     });
 }
 
-// downloadPost(q, (err, resp) => {
+// downloadPost(postId, directoryName (err, resp) => {
 //     if(err) {
 //         console.log(`Error is: ${err}`);
 //     }
