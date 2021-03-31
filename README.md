@@ -1,9 +1,13 @@
+![Image of easy-instagram-post-downloder](https://raw.githubusercontent.com/GowthamArputharaj/images/main/easy-instagram-post-downloder.png)
+
 > Get links of the publically shared medias on Instagram.
 
 # Install
 $ npm install --global easy-instagram-post-downloader
 
+
 # Instagram Post Downloader Usage
+```javascript
 const insta = require('easy-instagram-post-downloader');
 
 // https://www.instagram.com/p/{postId}/
@@ -16,10 +20,13 @@ insta(postId, dirName, (error, response) => {
     if(error) console.log(`Error is: ${err}`); 
     if(response) console.log(response);
 });
-
+```
 
 # Sample Output Response
+```
 URL is https://www.instagram.com/p/CM9i3rEKRBX/?__a=1
+
+```json
 {
   graphql: {
     shortcode_media: {
@@ -66,6 +73,8 @@ URL is https://www.instagram.com/p/CM9i3rEKRBX/?__a=1
     }
   }
 }
+```
+
 downloads\14049126411806867.jpeg
 
 # License
